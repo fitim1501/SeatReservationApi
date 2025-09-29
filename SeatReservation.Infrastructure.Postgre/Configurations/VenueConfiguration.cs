@@ -38,5 +38,6 @@ public class VenueConfiguration : IEntityTypeConfiguration<Venue>
             .HasForeignKey(s => s.VenueId)
             .IsRequired()
             .OnDelete(DeleteBehavior.Cascade);
+        //test
     }
 }
